@@ -1,3 +1,40 @@
-.row {
-  margin: 10px;
+.card {
+  border: 0px;
+  margin: 20px 0px 20px 0px;
+}
+
+h5 {
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.card-title {
+  margin-bottom: 0px;
+}
+
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .card {
+    margin: 20px 0px 50px 0px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .card {
+    margin: 20px 0px 50px 0px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .card {
+    margin: 20px 0px 50px 0px;
+  }
 }
