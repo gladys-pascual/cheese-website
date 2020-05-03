@@ -1,40 +1,119 @@
 .card {
-  border: 0px;
-  margin: 20px 0px 20px 0px;
+  margin: 20px 0px 50px 0px;
 }
 
-h5 {
-  text-align: center;
-}
-
-.card-text {
+h5,
+.card-text,
+.date {
   text-align: center;
 }
 
 .card-title {
-  margin-bottom: 0px;
+  margin-bottom: 5px;
+}
+
+.blog-title {
+  font-size: calc(10px + 3vw);
+}
+
+a:link {
+  color: #212529;
+}
+
+a:hover {
+  color: grey;
+}
+
+a:visited {
+  color: #212529;
+}
+
+.w-100 {
+  padding: 10px;
+}
+
+.w-100:hover {
+  cursor: pointer;
+}
+
+.d-block,
+.modal-body,
+.close-button {
+  padding: 1px;
+  background-color: rgb(224, 224, 224);
 }
 
 /* // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
+.blog-title {
+  font-size: calc(10px + 5vw);
+  text-align: center;
+}
+
+.blog-subtitle {
+  font-size: calc(5px + 3vw);
+  text-align: center;
+}
+
+#gallery {
+  margin-bottom: 50px;
+  justify-content: center;
+}
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  .card {
-    margin: 20px 0px 50px 0px;
+  .blog-title {
+    font-size: calc(10px + 4.5vw);
+    text-align: center;
+  }
+
+  .blog-subtitle {
+    font-size: calc(5px + 2.5vw);
+    text-align: center;
+  }
+
+  #gallery {
+    margin-bottom: 100px;
+    justify-content: left;
   }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .card {
-    margin: 20px 0px 50px 0px;
+  .blog-title {
+    font-size: calc(10px + 4vw);
+    text-align: center;
+  }
+
+  .blog-subtitle {
+    font-size: calc(5px + 2vw);
+    text-align: center;
+  }
+
+  #gallery {
+    margin-bottom: 100px;
+    justify-content: center;
   }
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .card {
-    margin: 20px 0px 50px 0px;
+  .blog-title {
+    font-size: calc(10px + 3.5vw);
+    text-align: center;
+  }
+
+  .blog-subtitle {
+    font-size: calc(5px + 1.5vw);
+    text-align: center;
+  }
+
+  #gallery {
+    margin-bottom: 100px;
+    justify-content: center;
+  }
+
+  .modal-dialog {
+    max-width: 1000px;
   }
 }
