@@ -1,11 +1,7 @@
 *{
-    font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
     /* add     
-    <link
-      href="http://fonts.googleapis.com/css?family=Inter"
-      rel="stylesheet"
-      type="text/css"
-    /> 
+ <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     in each html page, in your head tag, on top of all CSS links, as the font needs to be downloaded before CSS files are loaded   */
 }
 
