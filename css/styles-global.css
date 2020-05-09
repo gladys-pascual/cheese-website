@@ -1,1 +1,10 @@
-/* global CSS code to ensure consistent styling within all pages  */
+*{
+  font-family: 'Inter', sans-serif;
+    /* add     
+ <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    in each html page, in your head tag, on top of all CSS links, as the font needs to be downloaded before CSS files are loaded   */
+}
+
+h1{
+    font-weight: 800;
+}
