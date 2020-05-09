@@ -16,17 +16,41 @@ h5,
   font-size: calc(10px + 3vw);
 }
 
-a:link {
+/* start of style for links in blog */
+/* unvisited link */
+.blog-link:link {
   color: #212529;
 }
 
-a:hover {
+/* mouse over link */
+.blog-link:hover {
   color: grey;
 }
 
-a:visited {
+/* visited link */
+.blog-link:visited {
   color: #212529;
 }
+/* end of style for links in blog */
+
+/* start of style for links in blog homepage */
+/* unvisited link */
+.blog-home-link:link {
+  color: #212529;
+}
+
+/* mouse over link */
+.blog-home-link:hover {
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%);
+}
+
+/* visited link */
+.blog-home-link:hover {
+  color: #212529;
+}
+
+/* end of style for links in blog homepage */
 
 .w-100 {
   padding: 10px;
