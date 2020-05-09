@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Team section</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="../cheese-website/css/styles-contact-us.css">
 </head>
@@ -46,16 +47,18 @@
 		</div>
 	</div>
 	<!--Contact-->
-	<div class="contact">
-		<form action="/action_page.php">
-			<label for="fname">First name:</label><br>
-			<input type="text" id="fname" name="fname"><br>
-			<label for="lname">Last name:</label><br>
-			<input type="text" id="lname" name="lname"><br><br>
-			<textarea name="" id="" cols="30" rows="10"></textarea>
-			<input type="submit" value="Submit">
-		</form>
-
+	<div class="container">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2 class="contact-text">Keep in touch with us</h2>
+				<input type="text" class="field" placeholder="Your Name">
+				<input type="email" class="field" placeholder="Your Email">
+				<input type="text" class="field">
+				<textarea class="field area" placeholder="Message"></textarea>
+				<button class="btn">Send</button>
+			</div>
+		</div>
 	</div>
 </body>
 
