@@ -10,6 +10,7 @@ h5,
 
 .card-title {
   margin-bottom: 5px;
+  font-weight: 600;
 }
 
 .blog-title {
@@ -49,6 +50,9 @@ h5,
   -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(100%);
   text-decoration: none;
+}
+.card-body:hover {
+  background-color: rgb(241, 236, 236);
 }
 
 /* visited link */
