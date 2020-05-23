@@ -1,3 +1,4 @@
+background-color:  #FFE79A
 .navbar {
     list-style: none;
 }
@@ -9,32 +10,27 @@
 nav {
     display: flex;
     justify-content: flex-end;
-    padding: 20px  20px;
+    padding: 30px  30px;
 }
 h1 {
     text-align: center;
 }
-.still-Cheese {
-    width: 500px;
-    height: 500px;
-}
-#main-section {
-    display:flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-#carousels {
-    display:flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    flex-wrap: wrap;
+img {
+    height: 700px;
 }
 
-img {
-    width: 150%;
+.carousels {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    padding: 100px 20px 20px 20px;
+}
+.blog-carousel,  
+.cheese-carousel {
+    padding-top: 150px;
 }
 
 footer {
-
+    text-align: center;
 }
