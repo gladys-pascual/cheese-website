@@ -1,5 +1,15 @@
+body {
+  background-color:  #ffe79a;
+}
+
 .card {
   margin: 20px 0px 50px 0px;
+  background-color: #FFF9D8;
+}
+
+.blog-post-background{
+  background-color: #FFF9D8;
+  border-radius: 5px;
 }
 
 h5,
@@ -15,6 +25,7 @@ h5,
 
 .blog-title {
   font-size: calc(10px + 3vw);
+  font-family: 'Playfair Display', serif;
 }
 
 /* start of style for links in blog */
@@ -43,17 +54,20 @@ h5,
 /* unvisited link */
 .blog-home-link:link {
   color: #212529;
+  transition: all .5s ease;
 }
 
 /* mouse over link */
 .blog-home-link:hover {
-  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  filter: grayscale(100%);
   text-decoration: none;
+  background-color:  #ffe79a;
+  box-shadow: 0 0 20px #000;
 }
 .card-body:hover {
-  background-color: rgb(241, 236, 236);
-}
+  /* background-color: rgb(241, 236, 236); */
+  background-color:  #ffe79a;
+  box-shadow: 0 0 20px #000;
+} 
 
 /* visited link */
 .blog-home-link:visited {
@@ -79,6 +93,14 @@ h5,
 .blog-content {
   line-height: 28px;
   text-align: justify;
+}
+
+.blog-title{
+  padding-top:20px;
+}
+
+#gallery{
+  padding: 0px 24px 50px 24px;
 }
 
 /* // Extra small devices (portrait phones, less than 576px)
