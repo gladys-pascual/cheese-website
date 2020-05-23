@@ -8,6 +8,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
     <!-- global CSS stylesheet-->
     <link href="css/styles-global.css" rel="stylesheet" type="text/css" />
     <!-- local CSS stylesheet-->
@@ -24,45 +25,52 @@
            <section id="info-sheet">
             <div class="cheese-image">
                 <figure>
-                    <img src="images/oaxaca.jpg">
-                    <figcaption>copyright info</figcaption>
+                    <img src="images/oaxaca-hd.jpg">
+                    <figcaption>
+                        &copy; John McCheese Lover
+                    </figcaption>
                 </figure>
             </div>
             <div class="cheese-info">
-                <h1>Oaxaca</h1>
+                <h1>Queso Oaxaca</h1>
+                <div class="smallSeparator"></div>
                 <ul>
                     <li>
-                        <p><strong>Type of milk:</strong>Pasteurised cow’s milk</p>
+                        <img src="images/milk.png"><p><strong>Type of milk:</strong>Pasteurised cow’s milk</p>
                     </li>
                     <li>
-                        <p><strong>Region:</strong>Oaxaca, Mexico</p>
+                        <img src="images/pin.png"><p><strong>Region:</strong>Oaxaca, Mexico</p>
                     </li>
                     <li>
-                        <p><strong>Protected Geographical Indication:</strong>No</p>
+                        <img src="images/pin-check.png"><p><strong>Protected Geographical Indication:</strong>No</p>
                     </li>
                     <li>
-                        <p><strong>Flavour:</strong>Buttery, mild, salty, savory</p>
+                        <img src="images/mouth.png"><p><strong>Flavour:</strong>Buttery, mild, salty, savory</p>
                     </li>
                     <li>
-                        <p><strong>Aroma:</strong>Pleasant</p>
+                        <img src="images/nose.png"><p><strong>Aroma:</strong>Pleasant</p>
                     </li>
                     <li>
-                        <p><strong>Colour:</strong>White</p>
+                        <img src="images/colour-white.png"><p><strong>Colour:</strong>White</p>
                     </li>
                 </ul>
             </div> 
            </section>
 
            <section id="text">
+            <div class="textWrapper">
             <p>
                 Oaxaca cheese also referred to as quesillo, is a white, semihard cheese from Mexico, similar to unaged Monterey jack, but with a mozzarella-like string cheese texture. Outside Mexico, Oaxaca cheese is often confused with asadero (queso asadero), a cheese produced in the northern state of Chihuahua. They are similar in texture and taste, but they are produced with different methods, making Oaxaca cheese slightly drier.
-                <br>
+            </p>
+            <p>
                 It is named after the state of Oaxaca in southern Mexico, where it was first made. The string cheese process (pasta filata), originally from Italy, which is used to produce mozzarella, was brought to Mexico by the Dominican friars that settled in Oaxaca. As water buffalo milk was unavailable, they used cow's milk, instead. The cheese is available in several different shapes.
-                <br>
+            
                 The production process is complicated and involves stretching the cheese into long ribbons and rolling it up like a ball of yarn. Italian mozzarella is another cheese which is processed by stretching (the pasta filata process).
-                <br>
+            </p>
+            <p>
                 Queso Oaxaca is used widely in Mexican cuisine, especially in quesadillas and empanadas, where the queso Oaxaca is melted and other ingredients, such as huitlacoche and squash flowers, are added to the filling.
             </p>
+            </div>
            </section>
            
            <section id="reviews">
@@ -71,20 +79,123 @@
                </div>
                <div class="rating-wrapper">
                    <span class="rating-icons">
-                        <a class="star-icon"><img src="images/star.png"></a>
-                        <a class="star-icon"><img src="images/star.png"></a>
-                        <a class="star-icon"><img src="images/star.png"></a>
-                        <a class="star-icon"><img src="images/star.png"></a>
-                        <a class="star-icon"><img src="images/star.png"></a>
+                        <a class="star-icon" href="#"><img src="images/star_big_stroke.png"></a>
+                        <a class="star-icon" href="#"><img src="images/star_big_stroke.png"></a>
+                        <a class="star-icon" href="#"><img src="images/star_big_stroke.png"></a>
+                        <a class="star-icon" href="#"><img src="images/star_big_stroke.png"></a>
+                        <a class="star-icon" href="#"><img src="images/star_big_stroke.png"></a>
                    </span>
                </div>
                <div class="review-form-wrapper">
                     <form class="review-form">  
                         <textarea placeholder="Your thoughts...">
                         </textarea>
-                        <input type="submit" value="Submit">
+                            <div class="buttonWrapper">
+                            <a href="#"><input type="submit" value="Submit"></a>
+                        </div>
                     </form>
                </div>
+                <div class="reviewsWrapper">
+                    <div class="review-title">
+                    <h3>What our users thought</h3>
+                    </div>
+                
+                <!-- REVIEW WRAPPER START-->
+                <div class="reviewWrapper">
+                    <div class="userInfoWrapper">
+                        <div class="smallProfilePic">                    
+                            <figure>
+                                <img src="images/anthony.jpg" alt="">
+                            </figure>
+                            <span class='userName'>Anthony Vanderstraeten</span>
+                        </div>
+                    </div>
+                    <div class="userReview">
+                        <div class="smallRatingWrapper">
+                            <span class="smallRatingIcons">
+                             <a class="smallStarIcon"><img src="images/star_small_fill.png"></a>
+                             <a class="smallStarIcon"><img src="images/star_small_fill.png"></a>
+                             <a class="smallStarIcon"><img src="images/star_small_fill.png"></a>
+                             <a class="smallStarIcon"><img src="images/star_small_fill.png"></a>
+                             <a class="smallStarIcon"><img src="images/star_small_stroke.png"></a>
+                            </span>
+                        </div>
+                        <div class="reviewTextWrapper">
+                            <p>
+                           OMG ! This cheese is so stringy ! Highly recommended, such wow.
+                            </p>
+                            <span class="reviewDate">Reviewed on 21/05/2020</span>
+                         </div>
+                    </div>
+
+                </div>
+                <!-- REVIEW WRAPPER END-->
+                 <!-- REVIEW WRAPPER START-->
+                 <div class="reviewWrapper">
+                    <div class="userInfoWrapper">
+                        <div class="smallProfilePic">                    
+                            <figure>
+                                <img src="images/ciara.jpg" alt="">
+                            </figure>
+                            <span class='userName'>Ciara Cozzi</span>
+                        </div>
+                    </div>
+                    <div class="userReview">
+                        <div class="smallRatingWrapper">
+                            <span class="smallRatingIcons">
+                             <a class="smallStarIcon"><img src="images/star_small_fill.png"></a>
+                             <a class="smallStarIcon"><img src="images/star_small_fill.png"></a>
+                             <a class="smallStarIcon"><img src="images/star_small_fill.png"></a>
+                             <a class="smallStarIcon"><img src="images/star_small_stroke.png"></a>
+                             <a class="smallStarIcon"><img src="images/star_small_stroke.png"></a>
+                            </span>
+                        </div>
+                        <div class="reviewTextWrapper">
+                            <p>
+                                Yo, I'll tell you what I want, what I really, really want.
+                                So tell me what you want, what you really, really want.
+                                I'll tell you what I want, what I really, really want.
+                                So tell me what you want, what you really, really want.
+                                I wanna, (ha) I wanna, (ha) I wanna, (ha) I wanna, (ha)
+                                I wanna really, really, really wanna zigazig ah !
+                            </p>
+                            <span class="reviewDate">Reviewed on 13/05/2020</span>
+                         </div>
+                    </div>
+
+                </div>
+                <!-- REVIEW WRAPPER END-->
+                 <!-- REVIEW WRAPPER START-->
+                 <div class="reviewWrapper">
+                    <div class="userInfoWrapper">
+                        <div class="smallProfilePic">                    
+                            <figure>
+                                <img src="images/joao.jpg" alt="">
+                            </figure>
+                            <span class='userName'>João Manuel Ferreira</span>
+                        </div>
+                    </div>
+                    <div class="userReview">
+                        <div class="smallRatingWrapper">
+                            <span class="smallRatingIcons">
+                             <a class="smallStarIcon"><img src="images/star_small_fill.png"></a>
+                             <a class="smallStarIcon"><img src="images/star_small_stroke.png"></a>
+                             <a class="smallStarIcon"><img src="images/star_small_stroke.png"></a>
+                             <a class="smallStarIcon"><img src="images/star_small_stroke.png"></a>
+                             <a class="smallStarIcon"><img src="images/star_small_stroke.png"></a>
+                            </span>
+                        </div>
+                        <div class="reviewTextWrapper">
+                            <p>
+                           Hated it ! Yuck !
+                            </p>
+                            <span class="reviewDate">Reviewed on 29/04/2020</span>
+                         </div>
+                    </div>
+
+                </div>
+                <!-- REVIEW WRAPPER END-->
+                </div>
 
            </section>
 
