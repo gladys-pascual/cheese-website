@@ -10,6 +10,7 @@ h5,
 
 .card-title {
   margin-bottom: 5px;
+  font-weight: 600;
 }
 
 .blog-title {
@@ -17,6 +18,11 @@ h5,
 }
 
 /* start of style for links in blog */
+.blog-link {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
 /* unvisited link */
 .blog-link:link {
   color: #212529;
@@ -43,10 +49,14 @@ h5,
 .blog-home-link:hover {
   -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(100%);
+  text-decoration: none;
+}
+.card-body:hover {
+  background-color: rgb(241, 236, 236);
 }
 
 /* visited link */
-.blog-home-link:hover {
+.blog-home-link:visited {
   color: #212529;
 }
 
