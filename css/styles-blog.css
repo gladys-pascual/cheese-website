@@ -59,7 +59,6 @@ h5,
 .blog-home-link:visited {
   color: #212529;
 }
-
 /* end of style for links in blog homepage */
 
 .w-100 {
@@ -79,6 +78,7 @@ h5,
 
 .blog-content {
   line-height: 28px;
+  text-align: justify;
 }
 
 /* // Extra small devices (portrait phones, less than 576px)
