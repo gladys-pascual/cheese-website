@@ -200,6 +200,7 @@ body {
 }
 
 .form-info {
+
 	font-size: 16px;
 	font-style: italic;
 	color: #5E6472;
@@ -207,9 +208,18 @@ body {
 
 }
 
-form {
-	margin-left: 66px;
+.contact-items {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
 }
+
+form {
+	margin-top: 20px;
+	margin-right: -99px;
+	margin-left: 140px;
+}
+
 
 input {
 	padding: 10px;
