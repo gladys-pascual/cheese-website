@@ -2,7 +2,6 @@
 
 *{
   font-family: 'Inter', sans-serif;
-
 }
 
 .navbar {
@@ -21,7 +20,7 @@ nav {
   padding: 30px  30px;
 }
 
-/* Footer style */
+/******************** Footer style ***************************/
 #footer-section{
   background-color: #fffef0;
 	background-image: url(../img/img-contact/mads-schmidt-rasmussen-6YmzwamGzCg-unsplash.jpg);
