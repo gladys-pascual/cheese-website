@@ -1,24 +1,75 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
 *{
   font-family: 'Inter', sans-serif;
-    /* add     
- <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    in each html page, in your head tag, on top of all CSS links, as the font needs to be downloaded before CSS files are loaded   */
-}
-
-h1{
-    font-weight: 800;
 }
 
 .navbar {
   list-style: none;
 }
+
 .navbar li {
   display: inline;
   font-size: 30px;
   padding: 0 0 0 30px;
 }
+
 nav {
   display: flex;
   justify-content: flex-end;
   padding: 30px  30px;
+}
+
+/******************** Footer style ***************************/
+#footer-section{
+  background-color: #fffef0;
+	background-image: url(../img/img-contact/mads-schmidt-rasmussen-6YmzwamGzCg-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+  padding-bottom: 2%;
+}
+
+footer{
+  text-align: center;
+}
+
+ul.footer-socials{
+  padding:50px 10px 5px 10px;
+}
+
+.footer-socials li {
+  list-style-type: none;
+  padding:5px;
+  display: inline-block;
+}
+.footer-socials li a {
+  display: inline-block;
+  height: 44px;
+	width: 44px;
+	background-color: #ffffff;
+	color: black;
+	border-radius: 50%;
+	margin: 0 2px;
+	text-align: center;
+	line-height: 42px;
+	font-size: 28px;
+	transition: all .5s ease;
+}
+.footer-socials li a:hover{
+  box-shadow: 0 0 10px #000;
+}
+
+.go-to-top-parent{
+  padding: 10px 10px 80px 10px;
+}
+.go-to-top-parent span{
+  text-transform: uppercase;
+  color: black;
+}
+.go-to-top-parent:hover{
+  text-decoration: none;
+}
+
+.go-to-top i{
+  font-size: xx-large;
 }
