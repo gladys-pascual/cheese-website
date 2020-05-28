@@ -35,7 +35,7 @@ body {
 	font-size: 40px;
 	text-align: center;
 	margin: 0;
-	color: #ffffff;
+	color: #352103;
 	font-weight: 700;
 }
 
@@ -43,7 +43,7 @@ body {
 	font-size: 16px;
 	text-align: center;
 	margin: 15px 0 0;
-	color: #ffffff;
+
 }
 
 .team-section .team-items {
@@ -95,13 +95,13 @@ body {
 	margin: 0;
 	font-size: 17px;
 	letter-spacing: 0.02em;
-	color: #ffffff;
+	color: #352103;
 }
 
 .team-section .team-items .item .inner .info p {
 	font-size: 16px;
-	font-weight: 400;
-	color: #c5c5c5;
+	letter-spacing: 1px;
+	color: #cc5d0e;
 	margin: 10px 0 0;
 }
 
@@ -114,7 +114,7 @@ body {
 	height: 32px;
 	width: 32px;
 	background-color: #ffffff;
-	color: #009688;
+	color: #352103;
 	border-radius: 50%;
 	margin: 0 2px;
 	text-align: center;
