@@ -5,11 +5,11 @@ body {
 .card {
   margin: 20px 0px 50px 0px;
   background-color: #FFF9D8;
+  color: #352103;
 }
 
 .blog-post-background{
   background-color: #FFF9D8;
-  /* background-color: #fffef0; */
   border-radius: 5px;
 }
 
@@ -17,6 +17,7 @@ h5,
 .card-text,
 .date {
   text-align: center;
+  color: #352103;
 }
 
 .card-title {
@@ -27,6 +28,7 @@ h5,
 .blog-title {
   font-size: calc(10px + 3vw);
   font-family: 'Playfair Display', serif;
+  color: #352103;
 }
 
 /* start of style for links in blog */
@@ -37,7 +39,8 @@ h5,
 
 /* unvisited link */
 .blog-link:link {
-  color: #212529;
+  /* color: #212529; */
+  color: #352103;
 }
 
 /* mouse over link */
@@ -54,7 +57,7 @@ h5,
 /* start of style for links in blog homepage */
 /* unvisited link */
 .blog-home-link:link {
-  color: #212529;
+  color: #352103;
   transition: all .5s ease;
 }
 
@@ -65,7 +68,6 @@ h5,
   box-shadow: 0 0 20px #000;
 }
 .card-body:hover {
-  /* background-color: rgb(241, 236, 236); */
   background-color:  #ffe79a;
   box-shadow: 0 0 20px #000;
 } 
@@ -75,7 +77,6 @@ h5,
   color: #212529;
 }
 /* end of style for links in blog homepage */
-
 .w-100 {
   padding: 10px;
 }
@@ -94,6 +95,7 @@ h5,
 .blog-content {
   line-height: 28px;
   text-align: justify;
+  color: #352103;
 }
 
 .blog-title{
@@ -104,16 +106,62 @@ h5,
   padding: 0px 24px 50px 24px;
 }
 
+/* Review CSS */
+.title h3 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #352103;
+}
+
+.review-form-wrapper {
+  width: 100%;
+}
+
+.review-form{
+  padding-bottom: 20px;
+}
+
+.review-form textarea {
+  width: 100%;
+  height: 120px;
+  padding-top: 10px;
+  border: none;
+  background-color:#fffef0;
+  border-radius: 10px;
+  padding-left: 15px;
+}
+
+.buttonWrapper {
+  text-align: right;
+}
+
+/* submit button */
+.button{
+  padding: 12px 24px 12px 24px;
+  background-color: #ffe79a;
+  color: #352103;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 4px 4px 8px -4px rgba(0,0,0,0.3);
+}
+.button:hover {
+  background-color:  #ffe79a;
+  box-shadow: 0 0 5px #000;
+}
+
 /* // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 .blog-title {
   font-size: calc(10px + 5vw);
   text-align: center;
+  color: #352103;
 }
 
 .blog-subtitle {
   font-size: calc(5px + 3vw);
   text-align: center;
+  color: #352103;
 }
 
 #gallery {
@@ -130,11 +178,13 @@ h5,
   .blog-title {
     font-size: calc(10px + 4.5vw);
     text-align: center;
+    color: #352103;
   }
 
   .blog-subtitle {
     font-size: calc(5px + 2.5vw);
     text-align: center;
+    color: #352103;
   }
 
   #gallery {
@@ -151,11 +201,13 @@ h5,
   .blog-title {
     font-size: calc(10px + 4vw);
     text-align: center;
+    color: #352103;
   }
 
   .blog-subtitle {
     font-size: calc(5px + 2vw);
     text-align: center;
+    color: #352103;
   }
 
   #gallery {
@@ -166,6 +218,7 @@ h5,
   .modal-dialog {
     max-width: 60vw;
   }
+
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -173,11 +226,13 @@ h5,
   .blog-title {
     font-size: calc(10px + 3.5vw);
     text-align: center;
+    color: #352103;
   }
 
   .blog-subtitle {
     font-size: calc(5px + 1.5vw);
     text-align: center;
+    color: #352103;
   }
 
   #gallery {
@@ -188,4 +243,60 @@ h5,
   .modal-dialog {
     max-width: 60vw;
   }
+
+
+}
+
+
+
+
+/* container */
+
+#share {
+	width: 100%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+/* buttons */
+
+#share a {
+  height: 28px;
+	width: 28px;
+  display: inline-block;
+  margin: 0 2px;
+  text-align: center;
+	line-height: 20px;
+	font-size: 16px;
+  border-radius: 50%;
+  color: #fff;
+	opacity: 0.75;
+	transition: opacity 0.15s linear;
+}
+
+#share a:hover {
+	opacity: 1;
+}
+
+/* icons */
+#share i {
+  	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+/* colors */
+.facebook {
+ 	background: #3b5998;
+}
+
+.twitter {
+  	background: #55acee;
+}
+
+.linkedin {
+  	background: #0077b5;
+}
+.pinterest {
+  background: #cb2027;
 }

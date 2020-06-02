@@ -47,7 +47,7 @@ ul.footer-socials{
   height: 44px;
 	width: 44px;
 	background-color: #ffffff;
-	color: black;
+  color: #352103;
 	border-radius: 50%;
 	margin: 0 2px;
 	text-align: center;
@@ -72,4 +72,8 @@ ul.footer-socials{
 
 .go-to-top i{
   font-size: xx-large;
+}
+
+.footer-socials p{
+  margin: 0px;
 }
