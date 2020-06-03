@@ -6,6 +6,7 @@ body {
   margin: 20px 0px 50px 0px;
   background-color: #FFF9D8;
   color: #352103;
+
 }
 
 .blog-post-background{
@@ -25,11 +26,22 @@ h5,
   font-weight: 600;
 }
 
-.blog-title {
+.blog-title{
+  padding-top:20px;
+  
+}
+
+.blog-title, #blog-title-2 {
   font-size: calc(10px + 3vw);
   font-family: 'Playfair Display', serif;
   color: #352103;
+  margin-bottom: 0px;
 }
+
+.date{
+  padding-top: 10px;
+}
+
 
 /* start of style for links in blog */
 .blog-link {
@@ -98,9 +110,7 @@ h5,
   color: #352103;
 }
 
-.blog-title{
-  padding-top:20px;
-}
+
 
 #gallery{
   padding: 0px 24px 50px 24px;
@@ -152,7 +162,7 @@ h5,
 
 /* // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
-.blog-title {
+.blog-title, #blog-title-2{
   font-size: calc(10px + 5vw);
   text-align: center;
   color: #352103;
@@ -175,7 +185,7 @@ h5,
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  .blog-title {
+  .blog-title, #blog-title-2{
     font-size: calc(10px + 4.5vw);
     text-align: center;
     color: #352103;
@@ -198,7 +208,7 @@ h5,
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .blog-title {
+  .blog-title, #blog-title-2{
     font-size: calc(10px + 4vw);
     text-align: center;
     color: #352103;
@@ -221,9 +231,11 @@ h5,
 
 }
 
+
+
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .blog-title {
+  .blog-title, #blog-title-2{
     font-size: calc(10px + 3.5vw);
     text-align: center;
     color: #352103;
