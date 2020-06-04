@@ -272,7 +272,7 @@ textarea::placeholder {
 	}
 
 	.team-section .team-items .item .inner .info h5 {
-		font-size: 12px;
+		font-size: 22px;
 	}
 
 	.container {
@@ -291,7 +291,7 @@ textarea::placeholder {
 	}
 
 	.contact-items {
-		margin-left: 20px;
+		margin-left: 50px;
 		padding-left: 20px;
 	}
 
@@ -309,19 +309,31 @@ textarea::placeholder {
 
 	.contact-form {
 		flex-direction: column-reverse;
+
 	}
 
-	input {
-		margin-left: 18px;
+	.contact-items {
+		margin-top: 70px;
+		padding: 0;
 	}
+
+	form {
+		position: relative;
+		left: 45%;
+		transform: translate(-50%, -50%);
+		bottom: -246px;
+	}
+
+
 
 	.form-info {
 		margin-bottom: -15px;
+
 	}
 
 
 	.container {
-		max-width: 50%;
+		max-width: 100%;
 		display: flex;
 		justify-content: space-around;
 		flex-direction: column;
@@ -329,6 +341,10 @@ textarea::placeholder {
 
 	.contact-section .container p {
 		display: none;
+	}
+
+	.submit {
+		font-size: 12px;
 	}
 
 
@@ -356,4 +372,14 @@ textarea::placeholder {
 		align-items: center;
 		flex-direction: column-reverse;
 	}
+
+	input {
+		width: 84%;
+	}
+
+	textarea {
+		width: 84%;
+	}
+
+
 }
