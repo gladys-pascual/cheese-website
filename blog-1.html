@@ -6,6 +6,7 @@
   <meta name="description" content="cheese blog" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
@@ -67,11 +68,19 @@
     </nav>
   </header>
 
-  <div class="container">
-    <div class="mx-4 my-5">
+  <div class="container blog-post-background">
+    <div class="mx-4 my-3">
       <div class="container py-3">
         <h1 class="blog-title">Cheese Rolling Race</h1>
         <p class="date">Sunday, May 03 2020</p>
+
+        <!-- share buttons -->
+        <!-- 
+        1. load font awesome with your favorite method
+        2. replace items in {{ }}s with details specific to your content 
+        -->
+
+
         <br />
         <p class="blog-content">
           The annual Cheese Rolling Race, formally known as the Copper’s Hill
@@ -79,7 +88,7 @@
           at
           <a class="blog-link" href="https://goo.gl/maps/FC3ZVT55UFaNyrdx7" target="_blank">
             Cooper’s Hill</a>, near Gloucester, England. The rules are simple - chase the 4 kg
-          of Double Gloucester cheese (link to our page) from the top of the
+          of Double Gloucester cheese from the top of the
           hill and the first person to make it to the bottom and across the
           finishing line wins the cheese. In theory, the person who catches
           the cheese wins it, but due to the lightning speed of the cheese
@@ -109,7 +118,7 @@
       </div>
     </div>
 
-    <div class="row mx-4 my-5" id="gallery" data-toggle="modal" data-target="#exampleModal">
+    <div class="row mx-4 my-3" id="gallery" data-toggle="modal" data-target="#exampleModal">
       <div class="col-12 col-sm-4 col-md-3 col-lg-2">
         <img class="w-100" src="images/blog-1/CheeseRolling.jpg" data-target="#carouselExample" data-slide-to="0"
           alt="cheese" />
@@ -168,11 +177,101 @@
         </div>
       </div>
     </div>
+
+    <div id="share">
+      <div class="title">
+        <h3>Share this post on:</h3>
+      </div>
+      <!-- facebook -->
+      <a class="facebook"
+        href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fgladys-pascual.github.io%2Fcheese-website%2Fblog-1.html"
+        target="blank"><i class="fa fa-facebook"></i></a>
+
+      <!-- twitter -->
+      <a class="twitter"
+        href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgladys-pascual.github.io%2Fcheese-website%2Fblog-1.html"
+        target="blank"><i class="fa fa-twitter"></i></a>
+
+      <!-- linkedin -->
+      <a class="linkedin"
+        href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgladys-pascual.github.io%2Fcheese-website%2Fblog-1.html"
+        target="blank"><i class="fa fa-linkedin"></i></a>
+
+      <!-- pinterest -->
+      <a class="pinterest"
+        href="https://pinterest.com/pin/create/button/?url=https://gladys-pascual.github.io/cheese-website/blog-1.html&media=&description="
+        target="blank"><i class="fa fa-pinterest-p"></i></a>
+    </div>
+
+
+
+    <!-- Reviews -->
+    <section id="reviews" class="mx-5 my-3">
+      <div class="title">
+        <h3>Leave a Comment</h3>
+      </div>
+      <div class="review-form-wrapper">
+        <form class="review-form">
+          <textarea placeholder="Your thoughts..."></textarea>
+          <div class="buttonWrapper">
+            <a href="#"><input class="button" type="submit" value="Submit"></a>
+          </div>
+        </form>
+      </div>
+    </section>
+
+
   </div>
 
-  <footer>
-    <p>footer..</p>
+  <!-- Footer -->
+  <footer id="footer-section">
+    <div class="container">
+      <div class="footer-socials-section">
+        <ul class="footer-socials">
+          <p>Follow us on</p>
+          <li>
+            <a href="https://github.com/gladys-pascual/cheese-website" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/" target="_blank">
+              <i class="fa fa-facebook "></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com/" target="_blank">
+              <i class="fa fa-twitter "></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="fa fa-instagram "></i>
+            </a>
+          </li>
+          <li>
+            <a href="contact-us.html">
+              <i class="fa fa-envelope-o"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p>This website was created by Gladys and the three Alexes of Wild Code School &#169; 2020</p>
+      </div>
+
+      <div class="go-to-top-parent">
+        <a href="#" class="go-to-top">
+          <span>
+            <i class="fa fa-angle-up"></i>
+            <br>
+            back to top
+          </span>
+        </a>
+      </div>
+    </div>
   </footer>
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
