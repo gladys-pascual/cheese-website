@@ -165,17 +165,14 @@ body {
 .contact-form i.fa {
 	font-size: 22px;
 	padding: 3%;
-	/* border-radius: 80%; */
 	background-color: none;
 	margin: 2%;
 	cursor: pointer;
-	/* border: 2px solid rgb(190, 190, 190); */
 	color: #5E6472;
 }
 
 .contact-form i.fa:hover {
 	cursor: pointer;
-	/* border: 2px solid #fff; */
 	color: #000;
 }
 
@@ -247,7 +244,6 @@ textarea::placeholder {
 	cursor: pointer;
 	margin-left: 2px;
 	margin-left: 31%;
-	/* border: 2px solid rgb(190, 190, 190); */
 	color: #fff;
 	border: none;
 }
@@ -272,7 +268,7 @@ textarea::placeholder {
 	}
 
 	.team-section .team-items .item .inner .info h5 {
-		font-size: 12px;
+		font-size: 22px;
 	}
 
 	.container {
@@ -291,7 +287,7 @@ textarea::placeholder {
 	}
 
 	.contact-items {
-		margin-left: 20px;
+		margin-left: 50px;
 		padding-left: 20px;
 	}
 
@@ -300,7 +296,8 @@ textarea::placeholder {
 	}
 }
 
-@media(max-width: 768px) {
+@media(max-width: 767px) {
+
 	.team-section .team-items .item {
 		flex-basis: calc(100%);
 		max-width: calc(100%);
@@ -309,19 +306,31 @@ textarea::placeholder {
 
 	.contact-form {
 		flex-direction: column-reverse;
+
 	}
 
-	input {
-		margin-left: 18px;
+	.contact-items {
+		margin-top: 70px;
+		padding: 0;
 	}
+
+	form {
+		position: relative;
+		left: 53%;
+		transform: translate(-50%, -50%);
+		bottom: -246px;
+	}
+
+
 
 	.form-info {
 		margin-bottom: -15px;
+
 	}
 
 
 	.container {
-		max-width: 50%;
+		max-width: 100%;
 		display: flex;
 		justify-content: space-around;
 		flex-direction: column;
@@ -329,6 +338,10 @@ textarea::placeholder {
 
 	.contact-section .container p {
 		display: none;
+	}
+
+	.submit {
+		font-size: 12px;
 	}
 
 
@@ -340,12 +353,9 @@ textarea::placeholder {
 
 	}
 
-
-
 	.team-section .team-items .item .inner .info h5 {
 		font-size: 20px;
 	}
-
 
 
 
@@ -355,5 +365,22 @@ textarea::placeholder {
 	.contact-form {
 		align-items: center;
 		flex-direction: column-reverse;
+	}
+
+	input {
+		width: 100%;
+	}
+
+	textarea {
+		width: 100%;
+	}
+
+	form {
+		display: block;
+		margin: 0 -13px
+	}
+
+	header {
+		display: none;
 	}
 }
