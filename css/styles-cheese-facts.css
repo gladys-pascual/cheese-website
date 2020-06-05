@@ -9,10 +9,8 @@ main {
     width: 1280px;
 }
 
-
-
 textarea {
-    color: black;
+    color: #352103;
 }
 
 section { 
@@ -39,7 +37,7 @@ h1 {
 }
 
 #info-sheet { 
-    background-color: #FFF9D8;
+    background-color: #FFFFFF;
 }
 
 .cheese-image {
@@ -68,13 +66,11 @@ h1 {
     position: absolute;
     bottom: 0;
     right: 0;
-
 }
 
 .cheese-info {
     width: 50%;
     margin: 0;
-
     padding: 32px;
     box-sizing: border-box;
 }
@@ -95,7 +91,7 @@ h1 {
     margin: 0;
     color: #352103;
     font-weight: 200;
-
+    font-size: 16px;
 }
 
 .cheese-info ul li img {
@@ -109,9 +105,22 @@ h1 {
     font-weight: 200;
 }
 
+.cheese-info ul li p a.infoLink {
+    text-decoration: none;
+    color: #352103;
+    background-color:#fff9e4;
+    border-bottom: 1px dotted #352103;
+}
+
+.cheese-info ul li p a.infoLink:hover {
+    opacity: 0.8;
+}
+
 #text {
    float: left;
-   background-color: #fffef0;
+   background-color: #fff9e4;
+   display: flex;
+   flex-direction: column;
 }
 
 .textWrapper {
@@ -119,6 +128,79 @@ h1 {
     margin: 48px 0px 48px 0px;
 
 }
+
+.imageGallery {
+    width: 100%;
+    padding: 0px 160px 0px 160px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin-bottom: 48px;
+}
+
+.thumb {
+    width: 25%;
+    height: 256px;
+    margin: 0px 12px 0px 12px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.thumb:first-child {
+    margin-left: 0px;
+}
+
+.thumb:last-child {
+    margin-right: 0px;
+}
+
+ .thumb img {
+    height: 100%;
+    margin: -100%;
+    opacity: 0.8;
+ }
+
+.thumb a img:hover {
+     opacity: 1.0;
+ }
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    padding-top: 235px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(245,249,228,0.9);
+  }
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #352103;
+    font-size: 80px;
+
+    transition: 0.3s;
+  }
+  
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
 .textWrapper p {
     font-size: 19px;
@@ -153,12 +235,22 @@ h1 {
 
 .rating-icons {
     display:flex;
+    flex-direction: row;
 }
 
-.rating-icons a {
+.rating-icons a{
     display: block;
     width: 24px;
+    height: 24px;
     margin-right: 10px;
+    background-image: 
+        url("/images/star_big_stroke.png");
+    text-decoration: none;
+}
+
+.rating-icons a:hover{
+    background-image: 
+        url("/images/star_big_fill.png");
 }
 
 .rating-icons img{
@@ -183,7 +275,16 @@ h1 {
     border: none;
     box-sizing: border-box;
     padding: 16px;
+    color: #352103;
+    font-weight: 200;
+    font-size: 19px;
+    line-height: 27px;
+    resize: none;
 }
+
+textarea::placeholder {
+    color: #ad8508;
+  }
 
 .buttonWrapper {
     text-align: right;
@@ -298,4 +399,199 @@ span.reviewDate{
 
 footer{
     width: 100%;
+}
+
+
+@media only screen and (max-width: 1280px) {
+    main {
+      width: 100%;
+    }
+  }
+
+
+  @media only screen and (max-width: 960px) {
+    .cheese-image {
+      width: 100%;
+      display: grid;
+    }
+
+    .cheese-image figure {
+        height: 500px;
+        overflow: hidden;
+    }
+
+    .cheese-image img {
+        position: relative;
+        
+    }
+    .cheese-info {
+        width: 100%;
+        padding: 32px 80px 32px 80px;
+        display: grid;
+    }
+
+    section#info-sheet {
+        display: block;
+    }
+
+    .textWrapper {
+        padding: 0px 80px 0px 80px;
+    }
+
+    .imageGallery {
+        padding: 0px 80px 0px 80px;
+    }
+
+    #reviews {
+        padding: 0px 80px 0px 80px;
+    }
+
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    h1 {
+        font-size: 56px;
+    }
+
+    .cheese-image figure {
+        height: 400px;
+    }
+
+    .cheese-image img {
+        height: auto;
+    }
+
+    .cheese-info {
+        padding: 32px 48px 32px 48px;
+    }
+    
+    .textWrapper {
+        padding: 0px 48px 0px 48px;
+        margin-bottom: 16px;
+    }
+
+    .imageGallery{
+        padding: 0px 48px 0px 48px;
+        flex-wrap: wrap;
+    }
+    
+    .thumb {
+      width: 33.3%;
+      height: 240px;
+      padding-bottom: 24px;
+
+    }
+
+    .thumb:nth-child(4){
+        margin-left: 0px;
+    }
+
+    #reviews {
+        padding: 0px 48px 0px 48px;
+    }
+
+  }
+
+
+@media only screen and (max-width: 414px) {
+    
+    h1 {
+        font-size: 40px;
+        margin-top: 24px;
+    }
+
+    .review-title h3 {
+        font-size: 22px;
+    }
+
+    .cheese-image figure {
+        height: 320px;
+    }
+
+    .cheese-info {
+        padding: 0px 24px 0px 24px;
+    }
+
+    .smallSeparator {
+        margin-bottom: 16px;
+    }
+
+    .textWrapper {
+        padding: 0px 24px 0px 24px;
+    }
+
+
+    .textWrapper p {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+
+
+    .imageGallery {
+        padding: 0px 24px 0px 24px;
+    }
+
+    .thumb {
+        width: 100%;
+        margin: 0px 0px 24px 0px;
+        padding: 0px;
+        height: auto;
+    }
+
+    .thumb:last-child{
+        margin-bottom: 0px;
+    }
+
+    .thumb img{
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    #reviews {
+        padding: 0px 24px 0px 24px;
+    }
+
+    .reviewWrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .review-form textarea {
+        font-size: 17px;
+    }
+
+    .userInfoWrapper {
+        width: 100%;
+        margin: 0px 0px 16px 0px;
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .smallProfilePic {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .smallProfilePic figure {
+        width: 64px;
+        height: 64px;
+        margin: 0px 12px 0px 0px;
+    }
+
+    .smallProfilePic .userName {
+        font-size: 14px;
+        margin: 0px;
+    }
+
+    .reviewTextWrapper p {
+        margin-top: 12px;
+        font-size: 14px;
+        line-height: 23px;
+    }
+
 }
