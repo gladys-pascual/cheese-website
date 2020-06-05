@@ -300,7 +300,8 @@ textarea::placeholder {
 	}
 }
 
-@media(max-width: 768px) {
+@media(max-width: 767px) {
+
 	.team-section .team-items .item {
 		flex-basis: calc(100%);
 		max-width: calc(100%);
@@ -319,7 +320,7 @@ textarea::placeholder {
 
 	form {
 		position: relative;
-		left: 45%;
+		left: 46%;
 		transform: translate(-50%, -50%);
 		bottom: -246px;
 	}
@@ -356,12 +357,9 @@ textarea::placeholder {
 
 	}
 
-
-
 	.team-section .team-items .item .inner .info h5 {
 		font-size: 20px;
 	}
-
 
 
 
@@ -374,12 +372,19 @@ textarea::placeholder {
 	}
 
 	input {
-		width: 84%;
+		width: 100%;
 	}
 
 	textarea {
-		width: 84%;
+		width: 100%;
 	}
 
+	form {
+		display: block;
+		margin: 0 -13px
+	}
 
+	header {
+		display: none;
+	}
 }
