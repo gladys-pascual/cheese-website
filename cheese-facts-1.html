@@ -13,7 +13,7 @@
     <link href="css/styles-global.css" rel="stylesheet" type="text/css" />
     <!-- local CSS stylesheet-->
     <link href="css/styles-cheese-facts.css" rel="stylesheet" type="text/css" />
-    <title>Cheese Facts 1</title>
+    <title>Queso Oaxaca</title>
   </head>
   <body>
       <header>
@@ -36,19 +36,19 @@
                 <div class="smallSeparator"></div>
                 <ul>
                     <li>
-                        <img src="images/milk.png"><p><strong>Type of milk:</strong>Pasteurised cow’s milk</p>
+                        <img src="images/milk2.png"><p><strong>Type of milk:</strong>Pasteurised cow’s milk</p>
                     </li>
                     <li>
-                        <img src="images/pin.png"><p><strong>Region:</strong>Oaxaca, Mexico</p>
+                        <img src="images/pin2.png"><p><strong>Region:</strong><a class="infoLink" href="https://goo.gl/maps/9NsZwMFEfM8fcLpX6" target="blank">Oaxaca, Mexico</a></p>
                     </li>
                     <li>
-                        <img src="images/pin-check.png"><p><strong>Protected Geographical Indication:</strong>No</p>
+                        <img src="images/pin-check2.png"><p><strong>Protected Geographical Indication:</strong>No</p>
                     </li>
                     <li>
-                        <img src="images/mouth.png"><p><strong>Flavour:</strong>Buttery, mild, salty, savory</p>
+                        <img src="images/mouth2.png"><p><strong>Flavour:</strong>Buttery, mild, salty, savory</p>
                     </li>
                     <li>
-                        <img src="images/nose.png"><p><strong>Aroma:</strong>Pleasant</p>
+                        <img src="images/nose2.png"><p><strong>Aroma:</strong>Pleasant</p>
                     </li>
                     <li>
                         <img src="images/colour-white.png"><p><strong>Colour:</strong>White</p>
@@ -71,6 +71,37 @@
                 Queso Oaxaca is used widely in Mexican cuisine, especially in quesadillas and empanadas, where the queso Oaxaca is melted and other ingredients, such as huitlacoche and squash flowers, are added to the filling.
             </p>
             </div>
+
+            <!-- IMAGE GALLERY START-->
+            <div class="imageGallery">
+                <figure class="thumb">
+                    <a>
+                        <img class="thumbImg" alt="hi" src="images/oaxaca1.jpg">
+                    </a>
+                </figure>
+                <!-- MODAL -->
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                <div id="caption"></div>
+                </div>
+                <figure class="thumb">
+                    <a>
+                        <img class="thumbImg" src="images/oaxaca2.jpg">
+                    </a>    
+                </figure>
+                <figure class="thumb">
+                    <a>
+                        <img class="thumbImg" src="images/oaxaca3.jpg">
+                    </a>
+                </figure>
+                <figure class="thumb">
+                    <a>
+                        <img class="thumbImg" src="images/oaxaca4.jpg">
+                    </a>
+                </figure>
+            </div>
+            <!-- IMAGE GALLERY END-->
            </section>
            
            <section id="reviews">
@@ -79,17 +110,16 @@
                </div>
                <div class="rating-wrapper">
                    <span class="rating-icons">
-                        <a class="star-icon" href="#"><img src="images/star_big_stroke.png"></a>
-                        <a class="star-icon" href="#"><img src="images/star_big_stroke.png"></a>
-                        <a class="star-icon" href="#"><img src="images/star_big_stroke.png"></a>
-                        <a class="star-icon" href="#"><img src="images/star_big_stroke.png"></a>
-                        <a class="star-icon" href="#"><img src="images/star_big_stroke.png"></a>
+                        <a class="star-icon" href="#">&nbsp;</a>
+                        <a class="star-icon" href="#">&nbsp;</a>
+                        <a class="star-icon" href="#">&nbsp;</a>
+                        <a class="star-icon" href="#">&nbsp;</a>
+                        <a class="star-icon" href="#">&nbsp;</a>
                    </span>
                </div>
                <div class="review-form-wrapper">
                     <form class="review-form">  
-                        <textarea placeholder="Your thoughts...">
-                        </textarea>
+                        <textarea placeholder="Your thoughts..."></textarea>
                             <div class="buttonWrapper">
                             <a href="#"><input type="submit" value="Submit"></a>
                         </div>
@@ -200,6 +230,8 @@
            </section>
 
       </main>
+      <script src="cheese-facts.js"></script>
+
       <footer>
           Footer goes here.
       </footer>
