@@ -1,5 +1,4 @@
 # html
-cheese-facts.html
 cheese-facts-1.html
 cheese-facts-2.html
 cheese-facts-3.html
@@ -14,3 +13,5 @@ css/styles-cheese-facts.css
 css/style.css
 css/styles-global.css
 css/styles-index.css
+# JS
+cheese-facts.js
