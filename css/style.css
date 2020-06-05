@@ -165,17 +165,14 @@ body {
 .contact-form i.fa {
 	font-size: 22px;
 	padding: 3%;
-	/* border-radius: 80%; */
 	background-color: none;
 	margin: 2%;
 	cursor: pointer;
-	/* border: 2px solid rgb(190, 190, 190); */
 	color: #5E6472;
 }
 
 .contact-form i.fa:hover {
 	cursor: pointer;
-	/* border: 2px solid #fff; */
 	color: #000;
 }
 
@@ -247,7 +244,6 @@ textarea::placeholder {
 	cursor: pointer;
 	margin-left: 2px;
 	margin-left: 31%;
-	/* border: 2px solid rgb(190, 190, 190); */
 	color: #fff;
 	border: none;
 }
