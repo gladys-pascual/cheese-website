@@ -10,7 +10,33 @@ body {
 	box-sizing: border-box;
 }
 
+.navbar {
+	list-style: none;
+	font-family: 'Playfair Display', serif;
+}
 
+.navbar li {
+	display: inline;
+	font-size: 30px;
+	padding: 0 0 0 30px;
+	font-family: 'Playfair Display', serif;
+}
+
+.navbar a {
+	color: #352103;
+	font-family: 'Playfair Display', serif;
+}
+
+.nav {
+	display: flex;
+	justify-content: flex-end;
+	padding: 30px 30px;
+	font-family: 'Playfair Display', serif;
+}
+
+.navbar-brand {
+	margin-right: 50px;
+}
 
 .team-section {
 	background-color: #FFE79A;
