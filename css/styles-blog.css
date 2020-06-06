@@ -75,14 +75,18 @@ h5,
 
 /* mouse over link */
 .blog-home-link:hover {
-  text-decoration: none;
-  background-color:  #ffe79a;
-  box-shadow: 0 0 20px #000;
+  text-decoration: none; 
 }
-.card-body:hover {
+
+.card:hover {
   background-color:  #ffe79a;
   box-shadow: 0 0 20px #000;
-} 
+  transform: translateY(-20px);
+	transition: all .5s ease;
+}
+
+
+
 
 /* visited link */
 .blog-home-link:visited {
@@ -230,8 +234,6 @@ h5,
   }
 
 }
-
-
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {

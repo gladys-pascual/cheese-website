@@ -4,6 +4,13 @@
   font-family: 'Inter', sans-serif;
 }
 /******************** Navbar style ***************************/
+.navbar-brand {
+  width: 150px;
+  }
+.nav-link {
+  color: #352103;
+  font-family: 'Playfair Display', serif;
+}
 .navbar {
   list-style: none;
   font-family: 'Playfair Display', serif;
@@ -11,7 +18,7 @@
 .navbar li {
   display: inline;
   font-size: 30px;
-  padding: 0 0 0 30px;
+  padding: 0 0 0 60px;
   font-family: 'Playfair Display', serif;
 }
 .navbar a {
@@ -26,6 +33,9 @@
 }
 .navbar-brand {
   margin-right: 50px;
+}
+.nav-item {
+  cursor: pointer;
 }
 /******************** Footer style ***************************/
 #footer-section{
