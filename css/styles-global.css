@@ -4,6 +4,13 @@
   font-family: 'Inter', sans-serif;
 }
 /******************** Navbar style ***************************/
+.navbar-brand {
+  width: 150px;
+  }
+.nav-link {
+  color: #352103;
+  font-family: 'Playfair Display', serif;
+}
 .navbar {
   list-style: none;
   font-family: 'Playfair Display', serif;
