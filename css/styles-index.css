@@ -1,10 +1,4 @@
-.navbar-brand {
-  width: 150px;
-  }
-.nav-link {
-  color: #352103;
-  font-family: 'Playfair Display', serif;
-}
+
 .carousel img {
     width: 100%;
   }
@@ -15,12 +9,13 @@
     font-family: 'Playfair Display', serif;
   }
   h1 {
-    font-size: calc(10px + 3vw);
-    margin-top: 30px;
-    margin-bottom: 30px;
+    font-size: calc(5px + 3vw);
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-family: 'Playfair Display', serif;
   }
   #main-canvas {
+    width: 95%;
     margin-bottom: 5px;
   }
   #blog-carousel,
