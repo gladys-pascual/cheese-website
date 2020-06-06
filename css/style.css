@@ -54,6 +54,8 @@ body {
 	flex-wrap: wrap;
 }
 
+
+
 .team-section .section-title {
 	flex-basis: 100%;
 	max-width: 100%;
@@ -385,28 +387,35 @@ textarea::placeholder {
 
 
 
-}
 
-@media(max-width:374px) {
-	.contact-form {
-		align-items: center;
-		flex-direction: column-reverse;
-	}
 
-	input {
-		width: 100%;
-	}
 
-	textarea {
-		width: 100%;
-	}
 
-	form {
-		display: block;
-		margin: 0 -13px
-	}
+	@media(max-width:374px) {
+		.contact-form {
+			align-items: center;
+			flex-direction: column-reverse;
+		}
 
-	header {
-		display: none;
+		.team-section {
+			width: 100vh;
+		}
+
+
+		input {
+			width: 100%;
+		}
+
+		textarea {
+			width: 100%;
+		}
+
+		form {
+			display: block;
+			margin: 0 -13px
+		}
+
+		header {
+			display: none;
+		}
 	}
-}
