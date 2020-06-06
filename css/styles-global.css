@@ -18,13 +18,15 @@
   color: #352103;
   font-family: 'Playfair Display', serif;
 } 
-nav {
+.nav {
   display: flex;
   justify-content: flex-end;
   padding: 30px  30px;
   font-family: 'Playfair Display', serif;
 }
-
+.navbar-brand {
+  margin-right: 50px;
+}
 /******************** Footer style ***************************/
 #footer-section{
   background-color: #fffef0;

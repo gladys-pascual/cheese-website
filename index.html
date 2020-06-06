@@ -31,212 +31,321 @@
 </head>
 
 <body>
-
   <header>
-    <nav>
-      <ul class="navbar">
-        <li>
-          <div class="dropdown">
-            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
-              Cheese Menu
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="cheese-facts-1.html">Oaxaca</a>
+    <!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color:#bea245;color: #352103">
+
+  <!-- Navbar brand -->
+  <a class="navbar-brand" href="index.html">
+    <img src="/images/cheese-world.jpg" alt="Cheesy Logo" style="width:200px;"/>
+  </a>
+  <!-- Collapse button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav"
+    aria-controls="myNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="myNav">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="blog-home.html">Blog      
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact-us.html">Contact Us</a>
+      </li>
+      <!-- Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="cheeseMenu" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Cheese Menu</a>
+        <div class="dropdown-menu dropdown-primary" aria-labelledby="cheeseMenu">
+            <a class="dropdown-item" href="cheese-facts-1.html">Oaxaca</a>
               <a class="dropdown-item" href="cheese-facts-2.html">Cashel Blue</a>
               <a class="dropdown-item" href="cheese-facts-3.html">Scamorza</a>
               <a class="dropdown-item" href="cheese-facts-4.html">Casu Marzu</a>
               <a class="dropdown-item" href="cheese-facts-5.html">Gloucester</a>
               <a class="dropdown-item" href="cheese-facts-6.html">Roquefort</a>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="dropdown">
-            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
-              By Country
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Italy</a>
-              <a class="dropdown-item" href="#">France</a>
-              <a class="dropdown-item" href="#">Poland</a>
-              <a class="dropdown-item" href="#">Gondor</a>
-              <a class="dropdown-item" href="#">Rohan</a>
-              <a class="dropdown-item" href="#">Isengard</a>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="dropdown">
-            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
-              By milk
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="cheese-facts-1.html">Cow</a>
-              <a class="dropdown-item" href="#">Sheep</a>
-              <a class="dropdown-item" href="#">Goat</a>
-              <a class="dropdown-item" href="#">Unicorn</a>
-            </div>
-          </div>
-        </li>
-        <li><a href="blog-home.html">Blog</a></li>
-        <li><a href="contact-us.html">Contact Us</a></li>
-      </ul>
-    </nav>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="byCountry" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">By Country</a>
+        <div class="dropdown-menu dropdown-primary" aria-labelledby="byCountry">
+            <a class="dropdown-item" href="cheese-facts-1.html">Mexico</a>
+            <a class="dropdown-item" href="cheese-facts-2.html">Ireland</a>
+            <a class="dropdown-item" href="cheese-facts-3.html">Italy</a>
+            <a class="dropdown-item" href="cheese-facts-4.html">Sardinia-Italy</a>
+            <a class="dropdown-item" href="cheese-facts-5.html">United Kingdom</a>
+            <a class="dropdown-item" href="cheese-facts-6.html">France</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="byMilk" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">By Milk</a>
+        <div class="dropdown-menu dropdown-primary" aria-labelledby="byMilk">
+          <a class="dropdown-item" href="cheese-facts-1.html">Cow</a>              
+          <a class="dropdown-item" href="cheese-facts-3.html">Sheep</a>
+          <a class="dropdown-item" href="cheese-facts-4.html">Goat</a>              
+          <a class="dropdown-item" href="cheese-facts-6.html">Unicorn</a>
+        </div>
+      </li>
+
+    </ul>
+
+  </div>
+  <!-- Collapsible content -->
+
+</nav>
+    
   </header>
 
-  
-
   <div class="container">
+		<div class="row">
+			
+			<div class="col">
+				<h1>Welcome to the Cheese World</h1>
+			</div>
 
-    <div class="row justify-content-center">
-      <div class="col-12">
-        <h1 class="page-title">Welcome to Cheese World</h1>
-      </div>
-    </div>
+		</div>
+  </div>
+  
+  <div class="container">
+		<div class="row">
+			
+			<div class="col">
+        <img id="main-canvas" class="d-block img-fluid" src="images/still-Cheese.jpg" alt="Still Cheese">
+        <p>Still Life with Cheeses Almonds and Pretzels. Clara Peeters 1615</p>
+			</div>
 
-    <div class="row justify-content-center">
-      <div class="col">
-          <img id="main-image" src="images/still-Cheese.jpg" alt="still cheese" />
-      </div>
-    </div>  
+		</div>
+  </div>
+    
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-5">
+                
+                    <div id="cheese-carousel" class="carousel slide" data-ride="carousel">
+                       
+                        <ol class="carousel-indicators">
+                          <li data-target="#cheese-carousel" data-slide-to="0" class="active"></li>
+                          <li data-target="#cheese-carousel" data-slide-to="1"></li>
+                          <li data-target="#cheese-carousel" data-slide-to="2"></li>
+                          <li data-target="#cheese-carousel" data-slide-to="3"></li>
+                          <li data-target="#cheese-carousel" data-slide-to="4"></li>
+                          <li data-target="#cheese-carousel" data-slide-to="5"></li>
+                        </ol>
+                       
+                        <div class="carousel-inner" role="listbox">
+                
+                          <div class="carousel-item active">
+                            <a href="cheese-facts-1.html">
+                                <img class="d-block img-fluid" src="images/oaxaca-hd.jpg" alt="Oaxaca">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h3 style="color:black">Oaxaca</h3>                              
+                                </div>
+                            </a>                            
+                          </div>
+                          
+                          <div class="carousel-item">
+                            <a href="cheese-facts-2.html">
+                              <img class="d-block img-fluid" src="images/cashel-blue-hd.jpg" alt="Cashel Blue">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h3 style="color:black">Cashel Blue</h3>                              
+                              </div>
+                            </a>
+                          </div>
+                          
+                          <div class="carousel-item">
+                            <a href="cheese-facts-3.html">
+                              <img class="d-block img-fluid" src="images/scamorza-hd.jpg" alt="Scamorza">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h3 style="color:black">Scamorza</h3>                              
+                              </div>
+                            </a>
+                          </div>
 
+                          <div class="carousel-item">
+                            <a href="cheese-facts-4.html">
+                              <img class="d-block img-fluid" src="images/casu-marzu-hd.jpg" alt="Casu Marzu">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h3 style="color:black">Casu Marzu</h3>                              
+                              </div>
+                            </a>
+                          </div>
 
-    <div class="row justify-content-center">
+                          <div class="carousel-item">
+                            <a href="cheese-facts-5.html">
+                              <img class="d-block img-fluid" src="images/gloucester-hd.jpg" alt="Gloucester">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h3 style="color:black">Gloucester</h3>                              
+                              </div>
+                            </a>
+                          </div>
 
+                          <div class="carousel-item">
+                            <a href="cheese-facts-6.html">
+                              <img class="d-block img-fluid" src="images/roquefort-hd.jpg" alt="Roquefort">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h3 style="color:black">Roquefort</h3>                              
+                              </div>
+                            </a>
+                          </div>
+    
+                        </div><!-- e carousel-inner -->
+                        
+                        <a class="carousel-control-prev" href="#cheese-carousel" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">prev</span>
+                        </a>
+                        
+                        <a class="carousel-control-next" href="#cheese-carousel" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">next</span>
+                        </a>
+                        
+                    </div><!-- e carousel -->
+                
+                </div><!-- e col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 -->
+                
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-5">
+                
+                    <div id="blog-carousel" class="carousel slide" data-ride="carousel">
+                       
+                        <ol class="carousel-indicators">
+                          <li data-target="#blog-carousel" data-slide-to="0" class="active"></li>
+                          <li data-target="#blog-carousel" data-slide-to="1"></li>
+                          <li data-target="#blog-carousel" data-slide-to="2"></li>
+                          <li data-target="#blog-carousel" data-slide-to="3"></li>
+                          <li data-target="#blog-carousel" data-slide-to="4"></li>
+                          <li data-target="#blog-carousel" data-slide-to="5"></li>
+                        </ol>
+                       
+                        <div class="carousel-inner" role="listbox">
+                
+                          <div class="carousel-item active">                            
+                              <a href="blog-1.html">
+                              <img class="d-block img-fluid" src="images/blog-1/CheeseRolling-card.jpg" alt="Cheese Rolling Race">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h3 style="color:black">Cheese Rolling Race</h3>                              
+                              </div>
+                              </a>                            
+                          </div>
+                          
+                          <div class="carousel-item">
+                            <a href="blog-2.html">
+                              <img class="d-block img-fluid" src="images/blog-2/Casu_Marzu_cheese-card.jpg" alt="Stinky Cheese">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h3 style="color:black">The most stinky cheese</h3>                              
+                              </div>
+                            </a>
+                          </div>
+                          
+                          <div class="carousel-item">
+                            <a href="blog-3.html">
+                              <img class="d-block img-fluid" src="images/blog-3/Production-of-cheese-card.jpg" alt="Production">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h3 style="color:black">In the cheese factory</h3>                              
+                              </div>
+                            </a>
+                          </div>
+
+                          <div class="carousel-item">
+                            <a href="blog-4.html">
+                              <img class="d-block img-fluid" src="images/blog-4/roquefort-cheese-card.jpg" alt="Roquefort">
+                            </a>
+                            <div class="carousel-caption d-none d-md-block">
+                              <h3 style="color:black">Roquefort Longevity</h3>                              
+                            </div>
+                          </div>
+
+                          <div class="carousel-item">
+                            <a href="blog-5.html">
+                              <img class="d-block img-fluid" src="images/blog-5/Swiss_cheese-card.jpg" alt="Swiss Cheese">
+                            </a>
+                            <div class="carousel-caption d-none d-md-block">
+                              <h3 style="color:black">The origin of holes</h3>                              
+                            </div>
+                          </div>
+
+                          <div class="carousel-item">
+                            <a href="blog-6.html">
+                              <img class="d-block img-fluid" src="images/blog-6/cheese-brine-card.jpg" alt="Brine Cheese">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h4 style="color:black">Cheese vs ice</h4>                              
+                              </div>
+                            </a>                            
+                          </div>
+    
+                        </div><!-- e carousel-inner -->
+                        
+                        <a class="carousel-control-prev" href="#blog-carousel" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">prev</span>
+                        </a>
+                        
+                        <a class="carousel-control-next" href="#blog-carousel" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">next</span>
+                        </a>
+                        
+                    </div><!-- e carousel -->
+                
+                </div><!-- e col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 -->
+                
+            </div><!-- e row -->
+        </div><!-- e container -->
+
+        <footer id="footer-section">
+          <div class="container">
+            <div class="footer-socials-section">
+              <ul class="footer-socials">
+                <li>
+                  <a href="https://github.com/gladys-pascual/cheese-website" target="_blank">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </li>
       
-
-      <div class="col-lg-6 col-md-6 col-sm-12">
-
-         
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-
-                <div class="carousel-item active">
-                  <a href="cheese-facts-1.html">
-                    <img class="img-fluid center-block" src="images/oaxaca-hd.jpg" alt="Oaxaca">
+                <li>
+                  <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fa fa-facebook "></i>
                   </a>
-                </div>
-
-                <div class="carousel-item">
-                  <a href="cheese-facts-2.html">
-                    <img class="img-fluid center-block" src="images/cashel-blue-hd.jpg" alt="Cashel Blue">
+                </li>
+                <li>
+                  <a href="https://www.twitter.com/" target="_blank">
+                    <i class="fa fa-twitter "></i>
                   </a>
-                </div>
-
-                <div class="carousel-item">
-                  <a href="cheese-facts-3.html">
-                    <img class="img-fluid center-block" src="images/scamorza-hd.jpg" alt="Scamorza">
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fa fa-instagram "></i>
                   </a>
-                </div>
-
-                <div class="carousel-item">
-                  <a href="cheese-facts-4.html">
-                    <img class="img-fluid center-block" src="images/casu-marzu-hd.jpg" alt="Casu Marzu">
+                </li>
+                <li>
+                  <a href="contact-us.html">
+                    <i class="fa fa-envelope-o"></i>
                   </a>
-                </div>
-
-                <div class="carousel-item">
-                  <a href="cheese-facts-5.html">
-                    <img class="img-fluid center-block" src="images/gloucester-hd.jpg" alt="Gloucester">
-                  </a>
-                </div>
-
-                <div class="carousel-item">
-                  <a href="cheese-facts-6.html">
-                    <img class="img-fluid center-block" src="images/roquefort-hd.jpg" alt="Roquefort">
-                  </a>
-                </div>
-
-              </div>
-
-              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-
-              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-
+                </li>
+              </ul>
             </div>
-          
-
-      </div>
-
-      <div class="col-lg-6 col-md-6 col-sm-12">
-
-          <div class="blog-carousel">
-
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-
-                <div class="carousel-item active">
-                  <a href="blog-1.html">
-                  <img class="img-fluid" src="images/blog-1/CheeseRolling-card.jpg" alt="Cheese Rolling Race">
-                  </a>
-                </div>
-
-              </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-
+            <div class="copyright">
+              <p>This website was created by Gladys and the three Alexes of Wild Code School &#169; 2020</p>
+            </div>
+      
+            <div class="go-to-top-parent">
+              <a href="#" class="go-to-top">
+                <span>
+                  <i class="fa fa-angle-up"></i>
+                  <br>
+                  back to top
+                </span>
+              </a>
             </div>
           </div>
+        </footer>
+    
 
-      </div>
-    </div>
-    </div>
-  </div>
-
-  <footer id="footer-section">
-    <div class="container">
-      <div class="footer-socials-section">
-        <ul class="footer-socials">
-          <li>
-            <a href="https://www.facebook.com/" target="_blank">
-              <i class="fa fa-facebook "></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.twitter.com/" target="_blank">
-              <i class="fa fa-twitter "></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/" target="_blank">
-              <i class="fa fa-instagram "></i>
-            </a>
-          </li>
-          <li>
-            <a href="contact-us.html">
-              <i class="fa fa-envelope-o"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="copyright">
-        <p>This website was created by Gladys and the three Alexes of Wild Code School &#169; 2020</p>
-      </div>
-
-      <div class="go-to-top-parent">
-        <a href="#" class="go-to-top">
-          <span>
-            <i class="fa fa-angle-up"></i>
-            <br>
-            back to top
-          </span>
-        </a>
-      </div>
-    </div>
-  </footer>
 </body>
-
-</html>
