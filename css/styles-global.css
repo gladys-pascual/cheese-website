@@ -27,6 +27,9 @@
 .navbar-brand {
   margin-right: 50px;
 }
+.nav-item {
+  cursor: pointer;
+}
 /******************** Footer style ***************************/
 #footer-section{
   background-color: #fffef0;
