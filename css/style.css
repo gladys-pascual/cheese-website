@@ -54,6 +54,8 @@ body {
 	flex-wrap: wrap;
 }
 
+
+
 .team-section .section-title {
 	flex-basis: 100%;
 	max-width: 100%;
@@ -104,8 +106,8 @@ body {
 }
 
 .team-section .team-items .item .inner .info {
-	background-color:#FFF9D8; /*lighter card color, the other one is #FFE79A*/
-	text-align: center;
+	background-color:#FFE79A;
+  text-align: center;
 	padding: 20px 15px;
 	border-radius: 8px;
 	transition: all .5s ease;
@@ -130,7 +132,7 @@ body {
 .team-section .team-items .item .inner .info p {
 	font-size: 16px;
 	letter-spacing: 1px;
-	color: #cc5d0e;
+	color: #FFF9D8;
 	margin: 10px 0 0;
 }
 
@@ -142,7 +144,7 @@ body {
 	display: inline-block;
 	height: 32px;
 	width: 32px;
-	background-color: #ffffff;
+	background-color: #FFF9D8;
 	color: #352103;
 	border-radius: 50%;
 	margin: 0 2px;
@@ -383,30 +385,60 @@ textarea::placeholder {
 		font-size: 20px;
 	}
 
+	.team-section .team-items .item img {
+		width: 62%;
+		margin: 0 auto;
+	}
 
-
-}
-
-@media(max-width:374px) {
-	.contact-form {
-		align-items: center;
-		flex-direction: column-reverse;
+	.team-section .team-items .item .inner .info {
+		width: 337px;
+		height: 161px;
 	}
 
 	input {
-		width: 100%;
+		width: 114%;
+		margin-left: -89px;
 	}
 
 	textarea {
-		width: 100%;
+		width: 114%;
+		margin-left: -89px;
 	}
 
-	form {
+	.submit {
 		display: block;
-		margin: 0 -13px
+		margin: 0 32px
 	}
 
-	header {
-		display: none;
+
+
+
+
+	@media(max-width:374px) {
+		.contact-form {
+			align-items: center;
+			flex-direction: column-reverse;
+		}
+
+		.team-section {
+			width: 100vh;
+		}
+
+
+		input {
+			width: 100%;
+		}
+
+		textarea {
+			width: 100%;
+		}
+
+		form {
+			display: block;
+			margin: 0 -13px
+		}
+
+		header {
+			display: none;
+		}
 	}
-}

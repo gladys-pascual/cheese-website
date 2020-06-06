@@ -19,55 +19,75 @@
 
 <body>
   <header>
-    <nav>
-      <ul class="navbar">
-        <li>
-          <div class="dropdown">
-            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
-              Cheese Menu
-            </button>
-            <div class="dropdown-menu">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#bea245;color:#352103">
+  
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="index.html">
+        <img src="/images/cheese-world-transluscent.png" alt="Cheesy Logo" style="width:200px;" />
+      </a>
+      <!-- Collapse button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav" aria-controls="myNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="myNav">
+  
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="blog-home.html">Blog
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact-us.html">Contact Us</a>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="cheeseMenu" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Cheese Menu</a>
+            <div class="dropdown-menu dropdown-primary" aria-labelledby="cheeseMenu">
               <a class="dropdown-item" href="cheese-facts-1.html">Oaxaca</a>
-              <a class="dropdown-item" href="#">Next cheese</a>
-              <a class="dropdown-item" href="#">Another cheese</a>
-              <a class="dropdown-item" href="#">Different cheese</a>
+              <a class="dropdown-item" href="cheese-facts-2.html">Cashel Blue</a>
+              <a class="dropdown-item" href="cheese-facts-3.html">Scamorza</a>
+              <a class="dropdown-item" href="cheese-facts-4.html">Casu Marzu</a>
+              <a class="dropdown-item" href="cheese-facts-5.html">Gloucester</a>
+              <a class="dropdown-item" href="cheese-facts-6.html">Roquefort</a>
             </div>
-          </div>
-        </li>
-        <li>
-          <div class="dropdown">
-            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
-              By Country
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Italy</a>
-              <a class="dropdown-item" href="#">France</a>
-              <a class="dropdown-item" href="#">Poland</a>
-              <a class="dropdown-item" href="#">Gondor</a>
-              <a class="dropdown-item" href="#">Rohan</a>
-              <a class="dropdown-item" href="#">Isengard</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="byCountry" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">By Country</a>
+            <div class="dropdown-menu dropdown-primary" aria-labelledby="byCountry">
+              <a class="dropdown-item" href="cheese-facts-1.html">Mexico</a>
+              <a class="dropdown-item" href="cheese-facts-2.html">Ireland</a>
+              <a class="dropdown-item" href="cheese-facts-3.html">Italy</a>
+              <a class="dropdown-item" href="cheese-facts-4.html">Sardinia-Italy</a>
+              <a class="dropdown-item" href="cheese-facts-5.html">United Kingdom</a>
+              <a class="dropdown-item" href="cheese-facts-6.html">France</a>
             </div>
-          </div>
-        </li>
-        <li>
-          <div class="dropdown">
-            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
-              By milk
-            </button>
-            <div class="dropdown-menu">
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="byMilk" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">By Milk</a>
+            <div class="dropdown-menu dropdown-primary" aria-labelledby="byMilk">
               <a class="dropdown-item" href="cheese-facts-1.html">Cow</a>
-              <a class="dropdown-item" href="#">Sheep</a>
-              <a class="dropdown-item" href="#">Goat</a>
-              <a class="dropdown-item" href="#">Unicorn</a>
+              <a class="dropdown-item" href="cheese-facts-3.html">Sheep</a>
+              <a class="dropdown-item" href="cheese-facts-4.html">Goat</a>
+              <a class="dropdown-item" href="cheese-facts-6.html">Unicorn</a>
             </div>
-          </div>
-        </li>
-        <li><a href="blog-home.html">Blog</a></li>
-        <li><a href="contact-us.html">Contact Us</a></li>
-      </ul>
+          </li>
+  
+        </ul>
+  
+      </div>
+      <!-- Collapsible content -->
+  
     </nav>
+  
   </header>
-
   <div class="container blog-post-background">
     <div class="mx-4 my-5">
       <div class="container py-3">
