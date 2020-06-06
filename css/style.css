@@ -68,6 +68,7 @@ body {
 	margin: 0;
 	color: #352103;
 	font-weight: 700;
+	font-family: 'Playfair Display', serif;
 }
 
 .team-section .section-title p {
@@ -132,8 +133,9 @@ body {
 .team-section .team-items .item .inner .info p {
 	font-size: 16px;
 	letter-spacing: 1px;
-	color: #FFF9D8;
+	color:  #352103;
 	margin: 10px 0 0;
+	font-style: italic;
 }
 
 .team-section .team-items .item .inner .info .social-links {
@@ -442,3 +444,4 @@ textarea::placeholder {
 			display: none;
 		}
 	}
+}
